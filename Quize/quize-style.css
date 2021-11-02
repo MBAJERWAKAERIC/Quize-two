@@ -175,7 +175,7 @@ ul li a{
     grid-area: job3;
   }
   .about-info .job {
-    background-image: url("eric1.jpg");
+    background-color: blue;
     padding: 0.5rem;
     border-bottom: black 5px solid;
   }
