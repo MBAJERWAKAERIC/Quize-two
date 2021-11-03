@@ -8,7 +8,7 @@ body{
     background-color: #f1f1f1;
 }
 .current {
-    color: coral;
+    color: rgb(255, 80, 80);
 }
 
 
@@ -43,8 +43,8 @@ ul li a{
     color:black;
    line-height: 50px;
    padding: 0 15px;
-   text-decoration: none;
-   font-size: 1.4rem;
+   text-decoration: double;
+   font-size: 2rem;
 }
    ul li a:hover{
     color: coral;
@@ -73,8 +73,8 @@ ul li a{
    }
    
   body {
-    background: #444;
-    color: #fff;
+    background-color: #f1f1f1;
+    color: black;
     height: 100%;
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -115,18 +115,18 @@ ul li a{
     background: rgba(73, 73, 73, 0.5);
   }
   a {
-    color: #fff;
+    color: black;
     text-decoration: none;
   }
   
   header {
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     width: 100%;
   }
   
   .text-secondary {
-    color: #eece1a;
+    color: green;
   }
   
   main {
@@ -140,7 +140,7 @@ ul li a{
     padding: 0.4rem;
   }
   main .icons a:hover {
-    color: #eece1a;
+    color: green;
     transition: all 0.5s ease-out;
   }
   main#home {
@@ -159,7 +159,7 @@ ul li a{
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: blue 3px solid;
+    border: blue 2px solid;
   }
   .about-info .bio {
     grid-area: bio;
@@ -175,8 +175,9 @@ ul li a{
     grid-area: job3;
   }
   .about-info .job {
-    background-color: blue;
-    padding: 0.5rem;
+    background-color: rgb(36, 36, 187);
+    padding: 1.5rem;
     border-bottom: black 5px solid;
   }
+ 
 
